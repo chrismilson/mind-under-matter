@@ -8615,6 +8615,11 @@ react-error-overlay@^6.0.6:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.6.tgz#ac4d9dc4c1b5c536c2c312bf66aa2b09bfa384e2"
   integrity sha512-Yzpno3enVzSrSCnnljmr4b/2KUQSMZaPuqmS26t9k4nW7uwJk6STWmH9heNjPuvqUTO3jOSPkHoKgO4+Dw7uIw==
 
+react-hooks-use-drawing-canvas@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/react-hooks-use-drawing-canvas/-/react-hooks-use-drawing-canvas-0.1.0.tgz#e8cfb0903146eb18e6485b2e743b831756de26b0"
+  integrity sha512-PI64ctqyXVcHwpSBEw1dVkB52wPmr3VbhJ1HOnEL9d9P9NQpViDmqWh4877a0zUGfbnbIIXnmhk5MNpq2l6b/w==
+
 react-is@^16.12.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.9.0:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
