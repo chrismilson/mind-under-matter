@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import moment from 'moment'
 import { physicalToMental, mentalToPhysical } from './age'
 import './index.css'
+import Graph from './Graph'
 
 const App: React.FC = () => {
   /** Current physical age */
@@ -23,6 +24,7 @@ const App: React.FC = () => {
         value={mentalAge}
         onChange={e => setAge(mentalToPhysical(parseInt(e.target.value)))}
       />
+      <Graph highlight={age} />
     </div>
   )
 }
