@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/mind-under-matter/precache-manifest.c2303b130fbb5f36dc9bccf47ee32c80.js"
+  "/mind-under-matter/precache-manifest.52f4e0936b75a1177faf34edd6fa8691.js"
 );
 
 self.addEventListener('message', (event) => {

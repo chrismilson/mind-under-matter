@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5ad4b414e54289047e96c910f1038741",
+    "revision": "7560c50ca5d60fa9fd95330b79423efc",
     "url": "/mind-under-matter/index.html"
   },
   {
-    "revision": "3825ed6cc57f84bd3e71",
-    "url": "/mind-under-matter/static/css/main.65b00250.chunk.css"
+    "revision": "98aaaa3b164ff8cec4b1",
+    "url": "/mind-under-matter/static/css/main.f8bbdd95.chunk.css"
   },
   {
     "revision": "4e7cab9c0566f82246a5",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mind-under-matter/static/js/2.2b5fc517.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3825ed6cc57f84bd3e71",
+    "revision": "98aaaa3b164ff8cec4b1",
     "url": "/mind-under-matter/static/js/main.a6aa432c.chunk.js"
   },
   {
