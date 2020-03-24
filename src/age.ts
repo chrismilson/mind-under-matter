@@ -13,7 +13,6 @@ export const physicalToMental = ((base = 10) => {
   /** This is recursive */
   const rec = (physical: number) => {
     if (!mental[physical] && mental[physical] !== 0) {
-      console.log(`calculating ${physical}, ${mental[physical]}`)
       mental[physical] = rec(Math.floor(physical / base)) + (physical % base)
     }
     return mental[physical]
