@@ -1,6 +1,6 @@
 {
-    "name": "shlappas template",
-    "short_name": "shlappas",
+    "name": "Mind Under Matter",
+    "short_name": "Mind < Matter",
     "icons": [
         {
             "src": "android-chrome-192x192.png",
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#000",
-    "background_color": "#fff",
+    "theme_color": "#fff",
+    "background_color": "#464646",
     "display": "standalone"
 }
