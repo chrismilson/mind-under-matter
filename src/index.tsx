@@ -21,7 +21,7 @@ const App: React.FC = () => {
             id="physical"
             type="number"
             value={age}
-            onChange={e => setAge(parseInt(e.target.value, 10))}
+            onChange={e => setAge(Math.max(1, parseInt(e.target.value, 10)))}
           />
         </div>
         <div className="mental age">
@@ -30,7 +30,9 @@ const App: React.FC = () => {
             id="mental"
             type="number"
             value={mentalAge}
-            onChange={e => setAge(mentalToPhysical(parseInt(e.target.value)))}
+            onChange={e => {
+              setAge(Math.max(1, mentalToPhysical(parseInt(e.target.value))))
+            }}
           />
         </div>
       </div>
