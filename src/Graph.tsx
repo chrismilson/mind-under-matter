@@ -4,7 +4,7 @@ import useDrawingCanvas, { DrawingMethod } from 'react-hooks-use-drawing-canvas'
 
 const drawGraph = (highlight: number): DrawingMethod => {
   return (ctx, widthPX, heightPX) => {
-    const width = highlight * 2
+    const width = Math.max(highlight * 2, 100)
     const height = Math.floor(9 * Math.log10(width))
 
     // draw the graph
