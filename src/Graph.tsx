@@ -28,13 +28,15 @@ const drawGraph = (highlight: number): DrawingMethod => {
     ctx.arc(
       (highlight * widthPX) / width,
       heightPX - (physicalToMental(highlight) * heightPX) / height,
-      10,
+      7,
       0,
       2 * Math.PI
     )
     ctx.closePath()
-    ctx.fillStyle = `hsla(${120}, 100%, 40%, 0.6)`
+    ctx.fillStyle = `rgba(255,255,255,0.6)`
     ctx.fill()
+    ctx.lineWidth = 3
+    ctx.stroke()
 
     ctx.restore()
 
