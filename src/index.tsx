@@ -14,16 +14,26 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
-      <input
-        type="number"
-        value={age}
-        onChange={e => setAge(parseInt(e.target.value, 10))}
-      />
-      <input
-        type="number"
-        value={mentalAge}
-        onChange={e => setAge(mentalToPhysical(parseInt(e.target.value)))}
-      />
+      <div className="inputs">
+        <div className="physical age">
+          <label htmlFor="physical">Physical Age</label>
+          <input
+            id="physical"
+            type="number"
+            value={age}
+            onChange={e => setAge(parseInt(e.target.value, 10))}
+          />
+        </div>
+        <div className="mental age">
+          <label htmlFor="mental">Mental Age</label>
+          <input
+            id="mental"
+            type="number"
+            value={mentalAge}
+            onChange={e => setAge(mentalToPhysical(parseInt(e.target.value)))}
+          />
+        </div>
+      </div>
       <Graph highlight={age} />
     </div>
   )
